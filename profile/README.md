@@ -10,6 +10,17 @@ OpenAniBT 是致力于为动漫爱好者、字幕组与开发者打造现代化�
 
 ---
 
+## 开源项目目录
+
+| 仓库 | 类别 | 说明 | 链接 |
+| :--- | :--- | :--- | :--- |
+| [ui](https://github.com/OpenAniBT/ui) | 前端组件库 | 「贴纸手账」风格设计系统，基于 Tailwind CSS v4 与 Radix UI 的 shadcn registry | [ui.anibt.net](https://ui.anibt.net) |
+| [wiki](https://github.com/OpenAniBT/wiki) | 文档与知识库 | AniBT 官方使用指南、字幕组工作流与平台文档 | [wiki.anibt.net](https://wiki.anibt.net) |
+| [Yuc](https://github.com/OpenAniBT/Yuc) | 数据归档 | Yuc 季度新番公开资料归档与结构化提取工具 | - |
+| [torrent-parser](https://github.com/OpenAniBT/torrent-parser) | 工具链 | 在线 BT 种子文件与元数据解析工具 | [parser.anibt.net](https://parser.anibt.net) |
+
+---
+
 ## 立项背景
 
 长久以来，动漫 BT 资源与字幕组内容分发多依赖于传统老旧架构与简陋论坛，普遍存在以下痛点：
@@ -34,5 +45,5 @@ OpenAniBT 的立项旨在改变这一现状——**以现代软件工程标准�
 
 欢迎通过 GitHub 关注各仓库进展、提交 Issue 反馈或发起 Pull Request。
 
-- 组织仓库列表：[github.com/OpenAniBT](https://github.com/OpenAniBT)
+- 组织主页：[github.com/OpenAniBT](https://github.com/OpenAniBT)
 - 官方使用指南：[wiki.anibt.net](https://wiki.anibt.net)
