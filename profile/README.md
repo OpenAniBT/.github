@@ -22,29 +22,6 @@ OpenAniBT 的立项旨在改变这一现状——**以现代软件工程标准�
 
 ---
 
-## 项目矩阵与生态说明
-
-### 1. AniBT Core / Web
-面向动漫 BT 资源与字幕组工作流的主干发布、聚合与检索系统。
-- 技术栈：TanStack Start、TanStack Query、React、PostgreSQL、Bun Runtime、Typesense、Redis
-- 核心功能：
-  - 基于 Typesense 的毫秒级全文检索与番剧时间线智能聚合
-  - 字幕组团队入驻、权限管理、发布模板与多站点同步 API
-  - 自动化的 Torrent、MediaInfo 解析与封面处理管线
-  - 高性能 SSR 缓存与分布式可观测性
-
-### 2. AniBT UI ([OpenAniBT/ui](https://github.com/OpenAniBT/ui))
-专为动漫与 ACG 站点打造的「贴纸手账」风格前端设计系统与组件库。
-- 架构形态：基于 Tailwind CSS v4 与 Radix UI 的 shadcn registry（`@anibt` 命名空间），源码直落项目，零黑盒依赖。
-- 视觉风格：模切白边、糖果光泽、和纸胶带与缝线质感，支持「白樱」（亮色）与「夜樱」（暗色）双色体系。
-- 演示与文档：[ui.anibt.net](https://ui.anibt.net)
-
-### 3. AniBT RSS & 数据管线
-面向番剧追踪与自动化订阅服务的数据处理中枢。
-- 提供标准化 RSS 提要输出、自动化番剧追新识别、外站发布监听与元数据补全服务。
-
----
-
 ## 核心理念
 
 - **极简专注**：拒绝过度广告与视觉噪点，专注纯粹的内容检索与极速浏览体验。
